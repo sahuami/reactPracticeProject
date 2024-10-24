@@ -1,11 +1,10 @@
 import React from 'react'
 
 export default function goodMorning() {
-    let currDate = new Date(2024, 5, 5, 17)   // date format (year,month,date, hour,min....)
+    let currDate = new Date(2024, 5, 5,16)   // date format (year,month,date, hour,min....)
     currDate = currDate.getHours()
     let greeting = ""
-    let cssStyle = {
-    }
+    let cssStyle = {}
     if (currDate > 1 && currDate < 12) {
         greeting = "Good morning"
         cssStyle.color = "green"
